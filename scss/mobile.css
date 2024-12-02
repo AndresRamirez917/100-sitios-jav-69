@@ -1,0 +1,48 @@
+#mainheader {
+  padding-top: 2rem;
+}
+#mainheader .navbar .logo {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
+#mainheader .navbar ul {
+  display: block;
+}
+#mainheader .navbar ul li {
+  text-align: center;
+}
+#mainheader .navbar .container {
+  display: block;
+}
+
+#work .work-row {
+  display: block;
+}
+#work .work-row img {
+  width: 100%;
+}
+
+#about .about-row {
+  display: block;
+}
+#about .about-row img {
+  margin-bottom: 2rem;
+}
+#about .about-row p {
+  padding-bottom: 2rem;
+}
+
+#social .social-row {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
+#social .social-row img {
+  width: 80px;
+}
+#social .social-row .social-icons {
+  display: block;
+  margin: 2rem 0;
+  text-align: center;
+}/*# sourceMappingURL=mobile.css.map */

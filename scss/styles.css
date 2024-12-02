@@ -1,0 +1,202 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  font-family: "Montserrat", sans-serif;
+  scroll-behavior: smooth;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+li {
+  list-style: none;
+}
+
+.container {
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 0 30px;
+}
+
+.flex {
+  display: flex;
+  flex: 1;
+  gap: 50px;
+}
+
+.title {
+  font-size: 6rem;
+  text-align: center;
+  text-transform: capitalize;
+  margin-top: 15rem;
+  -webkit-text-stroke: 4px rgb(255, 255, 255);
+  color: #000;
+}
+
+.subtitle {
+  text-align: center;
+  font-size: 2.5rem;
+  text-transform: capitalize;
+  margin: 3rem 0;
+}
+
+form .form-group {
+  margin-bottom: 1rem;
+}
+form .form-control {
+  display: block;
+  width: 100%;
+  padding: 1rem;
+  border-radius: 5px;
+}
+form .button {
+  width: 100%;
+  padding: 10px 20px;
+  text-align: center;
+  text-transform: uppercase;
+  background: #000;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+img {
+  max-width: 100%;
+}
+
+.navbar ul li a:hover,
+.navbar ul li a.active {
+  color: violet;
+}
+
+::-moz-placeholder {
+  font-family: "Font Awesome 5 free";
+  font-weight: 600;
+  content: "\f007";
+  text-align: right;
+}
+
+::placeholder {
+  font-family: "Font Awesome 5 free";
+  font-weight: 600;
+  content: "\f007";
+  text-align: right;
+}
+
+#mainheader {
+  background: url("/images/background.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 3rem;
+}
+#mainheader .navbar .logo {
+  background: #ccc;
+  border-radius: 50%;
+  margin-top: 2rem;
+  width: 80px;
+  padding: 10px;
+}
+#mainheader .navbar ul {
+  display: flex;
+  margin-top: 3rem;
+  text-align: center;
+  background: #fff;
+  padding: 25px;
+}
+#mainheader .navbar ul li {
+  display: inline-block;
+  margin-left: 1rem;
+}
+#mainheader .navbar .container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+#mainheader #showcase .material-symbols-outlined {
+  font-size: 80px;
+  color: #fff;
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+}
+
+#work {
+  width: 80%;
+  margin: 0 auto;
+  margin-bottom: 3rem;
+}
+#work p {
+  margin-bottom: 2rem;
+}
+#work .work-row {
+  display: flex;
+  gap: 30px;
+}
+#work .work-row img {
+  width: 30%;
+}
+
+#about {
+  background: linear-gradient(rgb(246, 2, 246), rgb(249, 8, 124));
+  color: #fff;
+}
+#about h2 {
+  padding-top: 4rem;
+}
+#about p {
+  margin-bottom: 2rem;
+  text-align: center;
+}
+#about .about-row {
+  width: 70%;
+  margin: 0 auto;
+  display: flex;
+}
+#about .about-row .about-text p {
+  text-align: justify;
+  line-height: 25px;
+}
+
+#contact {
+  width: 70%;
+  margin: 0 auto;
+}
+#contact form .flex-box-1 {
+  flex: 1;
+}
+
+#social {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+#social .social-row {
+  display: flex;
+  gap: 300px;
+}
+#social .social-row img {
+  width: 10%;
+}
+#social .social-row .social-icons {
+  display: flex;
+  gap: 5px;
+}
+#social .social-row .social-icons img {
+  width: 50px;
+}
+
+#footer {
+  text-align: center;
+  padding: 3rem 0;
+  background: linear-gradient(rgb(246, 2, 246), rgb(249, 8, 124));
+}/*# sourceMappingURL=styles.css.map */
