@@ -148,6 +148,7 @@ img {
 #work .work-row .work-flex img {
   width: 100%;
   border-radius: 5px;
+  margin-bottom: 1rem;
 }
 
 #about {
