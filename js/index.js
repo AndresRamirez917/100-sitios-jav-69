@@ -18,4 +18,34 @@ async function getData() {
     });
 }
 
+const btn_validar = document.getElementById('btn-validar').onclick = (e) => {
+    const inputArr = [
+        {id : "nombre", value : "Nombre"},
+        {id : "email", value : "Email"},
+        {id : "fecha", value : "Fecha"},
+        {id : "hora", value : "Hora"},
+        {id : "mensaje", value : "Mensaje"},
+    ]
+    for(let {id, value} of inputArr){
+        const element = document.getElementById(id);
+        if(element.value.trim() === ""){
+            swal({
+                title: `El campo ${value} no puede estar vacío`,
+                icon: "error",
+                 })
+        }
+        if(id === "email" && !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(element.value)){
+            swal({
+                title: `El campo ${value} no tiene el formato correcto`,
+                icon: "error",
+                 })
+        }
+    }
+    swal({
+        title: `Datos enviados satisfactoriamente`,
+        icon: "success",
+         })
+         inputArr.forEach(({id}) => document.getElementById(id).value = "");
+}
+
 getData()

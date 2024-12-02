@@ -146,7 +146,8 @@ img {
   text-align: center;
 }
 #work .work-row .work-flex img {
-  width: 50%;
+  width: 100%;
+  border-radius: 5px;
 }
 
 #about {

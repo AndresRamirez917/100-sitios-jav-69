@@ -8,7 +8,7 @@
 			href="https://fonts.sandbox.google.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"
 		/>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-
+        <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
     <link rel="stylesheet" href="/scss/styles.css">
     <link rel="stylesheet" media="screen and (max-width:1000px)" href="/scss/mobile.css">
     <title>Graphic Designer | Welcome</title>
@@ -69,28 +69,28 @@
                 <div class="form-group flex">
                     <div class="flex-box-1 box-1">
                         <label for="">Nombre</label>
-                        <input type="text" class="form-control" placeholder="">
+                        <input id="nombre" type="text" class="form-control" placeholder="">
                     </div>
                     <div class="flex-box-1 box-1">
                         <label for="">Email</label>
-                        <input type="text" class="form-control" placeholder="">
+                        <input id="email" type="text" class="form-control" placeholder="">
                     </div>
                 </div>
                 <div class="form-group flex">
                     <div class="flex-box-1 box-1">
                         <label for="">Fecha</label>
-                        <input type="date" class="form-control" placeholder="">
+                        <input id="fecha" type="date" class="form-control" placeholder="">
                     </div>
                     <div class="flex-box-1 box-1">
                         <label for="">Hora</label>
-                        <input type="time" class="form-control" placeholder="">
+                        <input id="hora" type="time" class="form-control" placeholder="">
                     </div>
                 </div>
                 <div class="form-group">
                     <label for="">Mensaje</label>
-                    <textarea name="" id="" cols="30" rows="10" class="form-control" placeholder=""></textarea>
+                    <textarea name="" id="mensaje" cols="30" rows="10" class="form-control" placeholder=""></textarea>
                 </div>
-                <div class="button">submit</div>
+                <div id="btn-validar" class="button">submit</div>
             </form>
         </div>
     </section>
