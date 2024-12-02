@@ -141,8 +141,12 @@ img {
   display: flex;
   gap: 30px;
 }
-#work .work-row img {
-  width: 30%;
+#work .work-row .work-flex {
+  margin: 0 auto;
+  text-align: center;
+}
+#work .work-row .work-flex img {
+  width: 50%;
 }
 
 #about {
